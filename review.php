@@ -97,14 +97,15 @@ function split_array(array $numbers, int $length, bool $preserveKeys = false): a
 
 
 function fizzBuzz(int $number) {
+    if(!($number %3 ) && !($number %5)){
+        return $result = 'FizzBuzz';
+    }
+
     if(!($number %3)){
         return $result = 'Fizz';
     }
     if(!($number %5)){
         return $result = 'Buzz';
-    }
-    if(!($number %3 ) && !($number %5)){
-        return $result = 'FizzBuzz';
     }
         return $number;
 
