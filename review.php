@@ -105,7 +105,7 @@ function fizzBuzz(int $number) {
     }
     if(!($number %3 ) && !($number %5)){
         return $result = 'FizzBuzz';
-    }else
+    }
         return $number;
 
 
